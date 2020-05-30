@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StartVC">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/platformer_background_4.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnStart" layoutX="300.0" layoutY="300.0" mnemonicParsing="false" prefWidth="200.0" text="Start" />
+      <TextField fx:id="txtUsername" alignment="CENTER" layoutX="300.0" layoutY="275.0" prefWidth="200.0" promptText="Username" />
+   </children>
+</AnchorPane>

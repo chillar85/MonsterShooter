@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MainBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameVC">
+   <children>
+      <ImageView fx:id="layer7" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer07_Sky.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer6" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer06_Rocks.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer5" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer05_Hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer4" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer04_Clouds.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer3" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer03_Hills_Castle.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="GameBox" prefHeight="600.0" prefWidth="800.0" />
+      <ImageView fx:id="layer2" fitHeight="600.0" fitWidth="800.0" mouseTransparent="true" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer02_Trees_rocks.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer1" fitHeight="600.0" fitWidth="800.0" mouseTransparent="true" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer01_Ground.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtTimer" alignment="CENTER" layoutX="14.0" layoutY="14.0" />
+      <TextField fx:id="txtScore" alignment="CENTER" layoutX="637.0" layoutY="14.0" promptText="Score" />
+      <Circle fill="#1f93ff00" layoutX="143.0" layoutY="346.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#1f93ff00" layoutX="213.0" layoutY="366.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#1f93ff00" layoutX="649.0" layoutY="358.0" radius="51.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#1f93ff00" layoutX="598.0" layoutY="416.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#1f93ff00" layoutX="700.0" layoutY="416.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Pane layoutX="3.0" layoutY="478.0" prefHeight="122.0" prefWidth="794.0" />
+   </children>
+</AnchorPane>

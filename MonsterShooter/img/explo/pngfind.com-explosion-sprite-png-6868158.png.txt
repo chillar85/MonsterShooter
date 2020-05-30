@@ -1,0 +1,1 @@
+explo_01.png.png 1 1, explo_02.png.png 213 22, explo_03.png.png 421 35, explo_04.png.png 56 243, explo_05.png.png 243 238, explo_06.png.png 414 222, explo_07.png.png 28 411, explo_08.png.png 217 409, explo_09.png.png 406 405.

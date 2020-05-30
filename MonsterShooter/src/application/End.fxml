@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MainBox" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EndVC">
+   <children>
+      <ImageView fx:id="layer7" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer07_Sky.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer6" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer06_Rocks.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer5" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer05_Hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer4" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer04_Clouds.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer3" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer03_Hills_Castle.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="GameBox" prefHeight="600.0" prefWidth="800.0" />
+      <ImageView fx:id="layer2" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer02_Trees_rocks.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="layer1" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../img/platformer_background_4/Layers/layer01_Ground.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="175.0" layoutY="100.0" opacity="0.64" prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: #5a5a5a; -fx-border-color: #232323;" />
+      <Pane fx:id="scoreBox" layoutX="175.0" layoutY="100.0" prefHeight="400.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnTryAgain" layoutX="199.0" layoutY="361.0" mnemonicParsing="false" text="Try Again" />
+            <Label fx:id="lblGameOver" alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="17.0" prefWidth="450.0">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#a69494ee" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
